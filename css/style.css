@@ -1,0 +1,326 @@
+
+body {
+margin: 0;
+background-color:#F7F7F7;
+}
+
+#top-section-wrapper {
+  height: 400px;
+  width: 1920px;
+}
+
+#left-corner-box {
+position:absolute;
+width: 75px;
+height:150px;
+background-color:black;
+}
+
+#top-section {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+#first-section {
+width:510px;
+height:200px;
+background-color:black;
+transform: skewX(-30deg);
+box-shadow: 2px 2px 5px grey;
+}
+
+#logo {
+  position: relative;
+  left: 200px;
+  top: 70px;
+  transform: skewX(30deg);
+
+}
+
+#top-contact-wrapper {
+  height:37px;
+  width: 1000px;
+  position:absolute;
+  left: 230px;
+  bottom: 163px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#top-contact-bar {
+position: relative;
+height:37px;
+width:800px;
+background-color: white;
+transform: skewX(-30deg);
+box-shadow: 2px 2px 5px grey;
+z-index: 1;
+}
+
+
+#address-phone-div {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 530px;
+  bottom: 210px;
+  width: 500px;
+  height: 200px;
+}
+
+#address-container {
+display: flex;
+flex-direction: row;  
+height: 00px;
+margin-top: 100px;
+margin-left: 40px;
+}
+
+#address-image {
+  width: 100%;
+  max-width: 13px;
+  margin-right: 6px;;
+}
+
+
+#address {
+position:relative;
+bottom:6px;
+font-family: 'Palanquin Dark';
+font-size: 15px;
+}
+
+.city-address {
+margin-left: 20px;
+font-family:'Noto Sans HK';
+font-size: 10px;
+}
+
+#phone-container {
+width:220px;
+float:left;
+margin-top: 100px;
+margin-left: 40px;
+margin-bottom: 10px;
+}
+
+#phone-2 {
+
+float:left;
+
+}
+
+#phone-number {
+
+position:relative;
+left:7px;
+bottom:6px;
+font-family: 'Palanquin Dark';
+font-size: 15px;
+
+}
+
+.call-today {
+
+margin-left: 20px;
+font-family:'Noto Sans HK';
+font-size: 10px;
+
+}
+
+
+#call-container {
+transform: skewX(30deg);
+font-family: 'Palanquin Dark';
+font-size: 13px;
+position:absolute;
+display: flex;
+flex-direction: row;
+z-index: 2;
+width: 200px;
+left: 50px;
+}
+
+
+#phone {
+position: relative;
+top: 11px;
+color: purple;
+width: 20px;
+height: 19px;
+}
+
+#call {
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+}
+
+#nav-bar {
+
+height:50px;
+width:1100px;
+background-color: white;
+position:absolute;
+left: 100px;
+top:175px;
+transform: skewX(-30deg);
+box-shadow: 2px 2px 5px grey;
+z-index: 2;
+
+}
+
+.nav {
+
+float:left;
+transform: skewX(30deg);
+list-style: none;
+font-family:'Noto Sans HK';
+font-size: 11px;
+color:grey;
+margin-right: 60px;
+
+}
+
+.home {
+
+padding-left:70px;
+float:left;
+transform: skewX(30deg);
+list-style: none;
+font-family:'Noto Sans HK';
+font-size: 11px;
+color:grey;
+margin-right: 60px;
+
+}
+
+.clear {
+
+clear:both;
+
+}
+
+#heading-container {
+font-family:'Palanquin Dark';
+width:300px;
+position: relative;
+top:120px;
+left:120px;
+}
+
+
+
+#social-container {
+z-index: 2;
+position: relative;
+transform: skewX(30deg);
+display: flex;
+flex-direction: row;
+width: 100%;
+max-width: 200px;
+top: 5px;
+right: 80px;
+}
+
+#social-icons {
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+
+
+
+#instagram {
+position:relative;
+right: 30px;
+}
+
+#twitter {
+position: relative;
+right:20px;
+}
+
+#facebook {
+  position: relative;
+  right: 10px;
+}
+
+#heading-punch-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: 100px;
+  z-index: 1;
+}
+
+#heading-container {
+
+float: lef;
+width:450px;
+}
+
+#new-york {
+
+font-family:'Rubik';
+font-weight: bolder;
+font-size: 40px;
+
+
+}
+
+#martial-arts {
+
+font-weight:lighter;
+
+}
+
+#man-punch {
+
+}
+
+h2 {
+font-weight:lighter;
+color: grey;
+font-size: 18px;
+}
+
+#h1-paragraph {
+
+font-family: 'Noto Sans HK';
+font-size: 14px;
+}
+
+#register {
+
+float: left;
+margin-right: 15px;
+}
+
+#read-now {
+
+float:left;
+
+}
+
+button {
+
+background-color:#000000;
+height:30px;
+width: 100px;
+color: white;
+font-family:'Noto Sans HK';
+font-size: 13px;
+border:none;
+margin-top: 10px;
+}
+
+button:hover {
+
+background-color: grey;
+
+
+}
